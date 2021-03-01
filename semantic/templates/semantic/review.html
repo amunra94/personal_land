@@ -1,0 +1,41 @@
+{% extends "semantic/semantic.html" %}
+
+{% block semantic_main %}
+<br>
+<center><h5>Please, enter your movie review:</h5></center>
+<br>
+<form class="form-inline" action="" method="post">
+    {% csrf_token %}
+    <!--{{ form.as_p }}-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <center>
+                    <div class="form-group">
+                        <textarea class="form-control" id="review_form" name="review" rows="8" cols="45"
+                                  placeholder="{{value_field}}"></textarea>
+                    </div>
+                </center>
+            </div>
+            <div class="col">
+            </div>
+            <div class="w-100"></div>
+            <br>
+            <div class="col">
+            </div>
+            <div class="col">
+               <center><button type="submit" class="btn btn-primary mx-sm-2 mb-2">Send</button></center>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+
+
+</form>
+
+
+{% endblock %}
