@@ -1,0 +1,32 @@
+{% extends "semantic/semantic.html" %}
+
+{% block semantic_main %}
+
+<h4>Prediction the mood of the movie review.</h4>
+<br>
+<h5>Description task:</h5>
+<p2> Dataset of IMDB with 50.000 movie reviews on English: 25.000 - negative and 25.000 - positive.<br>
+    Need to fit model to predict of mood review.
+</p2>
+
+<div class="line"></div>
+
+<h5>How have i done it?</h5>
+<p2>
+    <strong>Preparing:</strong><br>
+    I've cleared data from of frequent word like (and,or..) and special symbols.<br>
+    I have used NLTK library for downloading English stop-words.<br>
+    In this task I used bag-of-word technique to convert words to numbers
+    and tf-idf method to normalize weight of some words.<br>
+    <br>
+    <strong>Analysis:</strong><br>
+    I've taken SGDClassifier with LogRegression as a model for training with one sample.<br>
+    For finding good parameter I used GridSearch method with different parameters (StemmerPorter, Snowball) <br>
+    In the end I embedded this model in my personal site. Jus click the button below and test model.
+    <br>
+    Accuracy of this model: 90%.
+</p2>
+<div class="line"></div>
+<a href="review/" class="btn btn-primary " role="button" aria-pressed="true">Test model</a>
+
+{% endblock %}

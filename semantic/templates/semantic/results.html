@@ -1,0 +1,23 @@
+{% extends "semantic/semantic.html" %}
+
+{% block semantic_main %}
+<h5><strong>Your review:</strong></h5>
+
+{{ text_review }}
+
+<div class="line"></div>
+<h5><strong>Prediction:</strong></h5>
+<div>
+    This review is <strong> {{prediction}} </strong>.
+    <br>
+    Probability of prediction: <strong>{{probability}}% </strong>.
+</div>
+<form action="../thanks/" method="post">
+    {% csrf_token %}
+    <br>
+    <button type="submit" name="feedback_button" class="btn btn-primary" value="right">Correctly</button>
+    <button type="submit" name="feedback_button" class="btn btn-primary " value="wrong">Not correctly</button>
+</form>
+
+
+{% endblock %}
