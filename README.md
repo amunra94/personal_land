@@ -6,4 +6,3 @@ I'm developed persona landing page to send my CV very fast without searching act
     Python(on Django)
     JavaScript
     HTML/CSS
-    
