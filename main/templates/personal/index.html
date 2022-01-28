@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <link href="/static/dist/css/main.css" rel="stylesheet">
+
+    <link rel="icon" href="/static/favicon.ico">
+    <title>Andrey Rudnitskiy | Portfolio</title>
+</head>
+<body class="with-header position-relative" data-spy="scroll" data-target="#sections-nav" data-offset="80">
+<header class="header">
+    <div class="container-fluid-limited d-flex align-items-center justify-content-between">
+        <a href="index.html" class="header-brand">
+            <!--            <img src="/static/img/.png" alt="Your logo">-->
+        </a>
+        <button class="sections-nav-toggler" aria-label="Toggle navigation">
+            <span class="sections-nav-toggler-bar"></span>
+            <span class="sections-nav-toggler-bar"></span>
+            <span class="sections-nav-toggler-bar"></span>
+            <span class="sections-nav-toggler-bar"></span>
+        </button>
+    </div>
+</header>
+<nav class="sections-nav-container">
+    <ul id="sections-nav" class="nav sections-nav sections-nav-animated">
+        <li class="sections-nav-item">
+            <a href="#section-01" class="nav-link sections-nav-link goto-section active">
+                <span class="sections-nav-counter">01</span>
+                Top
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-02" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">02</span>
+                About me
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-03" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">03</span>
+                My services
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-04" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">04</span>
+                Skills
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-05" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">05</span>
+                Facts
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-06" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">06</span>
+                Experiences
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-07" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">07</span>
+                References
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-08" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">08</span>
+                Projects
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-09" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">09</span>
+                Feedbacks
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <a href="#section-10" class="nav-link sections-nav-link goto-section">
+                <span class="sections-nav-counter">10</span>
+                Contact
+            </a>
+        </li>
+        <li class="sections-nav-item">
+            <div class="sections-nav-info">
+                <a href="mailto:mail@arudnitskiy.ru">mail@arudnitskiy.ru</a><br>
+                <a href="tel:+420652887351">+7977 269 67 05</a><br>
+                <br>
+                <a href="arudnitskiy.ru">Developed by Rudnitskiy Andrey</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<main class="content">
+    <div class="container-fluid-limited">
+        <div class="row">
+            <div class="col col-xl-9">
+                <section id="section-01" class="section section-sub-header animation interaction-in">
+                    <div class="section-body">
+                        <div class="jumbotron jumbotron-fluid pt-6 pt-lg-8 pb-0 mb-0">
+                            <img src="/static/img/me.jpg" class="jumbotron-img animation-translate animation-item-1"
+                                 alt="Avatar">
+                            <h3 class="display-1 display-animated display-animated-in animation-translate animation-item-2">
+                                Andrey R</h3>
+                            <p class="lead animation-translate animation-item-3">DATA SCIENTIST / ML DEVELOPER</p>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-4">
+                        <a class="section-next goto-section" href="#section-02">
+                            <span class="section-next-counter">01/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-02" class="section animation">
+                    <div class="section-body">
+                        <div class="row">
+                            <div class="col col-xl-10">
+                                <h2 class="section-title animation-translate-overline animation-item-1">About me</h2>
+                                <article class="article animation-translate animation-item-2">
+                                    <p>
+                                        I'm machine learning engineer with a master's degree in computer science.
+                                        Thanks to my education, I started programming in 2013 and gained useful
+                                        experience
+                                        in writing software in various languages VHDL, C/C ++, Java, as well as Python,
+                                        Tcl, Bash.
+                                        I like to gain knowledge and experience in various areas of IT, which helps me
+                                        to better
+                                        understand how systems and platforms work, and helps to cover a wide range of
+                                        tasks in a project.
+                                        I've got first knowledge of machine learning and data scientist from courses
+                                        on Coursera, Stepic and MADE school.
+                                    </p>
+                                    <p>
+                                        Through my work in various fields, I have been able to apply machine learning to
+                                        different types of data.
+                                        My first projects involved using neural networks for processing electromagnetic
+                                        signals to extract information,
+                                        neural networks for image processing, classic ML algorithms for sales data, user
+                                        behavior data.
+                                        I have good knowledge about search and recommendation systems.
+                                        My range of tasks may include the development of the entire machine learning
+                                        pipeline: data collection, processing, analysis,
+                                        training, evaluation, calibration and deployment. Through the development of
+                                        freelance projects, I was able to gain experience in the design of large
+                                        systems.
+                                    </p>
+                                    <p> A well-coordinated and strong team is important for any project,
+                                        one by one we are not worth anything. I really like it when the team has
+                                        understanding
+                                        and everyone tries to contribute to the common cause.
+                                        Like any engineer, I like to solve interesting problems and see how they affect
+                                        the business and the user. I am a very energetic person, therefore,
+                                        I do not like a sleepy atmosphere without a clear plan and sequence of actions,
+                                        I like scrum or agile.
+                                        I am motivated by challenging goals both in work and in any area of life.
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-03">
+                            <span class="section-next-counter">02/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-03" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">My services</h2>
+                        <div class="row animation-translate animation-item-2">
+                            <div class="col-12 col-md-4">
+                                <div class="card card">
+                                    <div class="card-body">
+                                        <strong class="card-counter">1</strong>
+                                        <h3 class="card-title">ML<br>development</h3>
+                                        <p class="card-text">
+                                            I am proficient in a wide range of machine learning ranging from
+                                            simple statistical models to more complex neural networks
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="card card">
+                                    <div class="card-body">
+                                        <strong class="card-counter">2</strong>
+                                        <h3 class="card-title">Data<br>analytics</h3>
+                                        <p class="card-text">
+                                            I have the skill of ETL data and processing this data in order to extract
+                                            useful information
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="card card">
+                                    <div class="card-body">
+                                        <strong class="card-counter">3</strong>
+                                        <h3 class="card-title">Software<br>development</h3>
+                                        <p class="card-text">
+                                            All my projects had full-stack development
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-04">
+                            <span class="section-next-counter">03/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-04" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">Skills</h2>
+                        <div class="row animation-translate animation-item-2">
+                            <div class="col-12 col-md-6">
+                                <strong class="progress-label">Python</strong>
+                                <div class="progress progress-animated mb-9">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <strong class="progress-label">SQL</strong>
+                                <div class="progress progress-animated mb-9">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <strong class="progress-label">ML/DS Frameworks</strong>
+                                <div class="progress progress-animated mb-9">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <strong class="progress-label">Java/Kotlin</strong>
+                                <div class="progress progress-animated mb-9">
+                                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <strong class="progress-label">HTML/JavaScript</strong>
+                                <div class="progress progress-animated mb-9">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <strong class="progress-label">C/C++</strong>
+                                <div class="progress progress-animated mb-9">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-05">
+                            <span class="section-next-counter">04/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-05" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">Facts</h2>
+                        <div class="row animation-translate animation-item-2">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="counter mb-6 mb-lg-0">
+                                    <span class="counter-label">Coffees / per day</span>
+                                    <span data-counter-from="0" data-counter-to="4">4</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="counter mb-6 mb-lg-0">
+                                    <span class="counter-label">Launched projects</span>
+                                    <span data-counter-from="0" data-counter-to="15">15</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="counter mb-6 mb-lg-0">
+                                    <span class="counter-label">Years experience</span>
+                                    <span data-counter-from="0" data-counter-to="5">5</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="counter">
+                                    <span class="counter-label">Happy bosses</span>
+                                    <span data-counter-from="0" data-counter-to="4">4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-06">
+                            <span class="section-next-counter">05/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-06" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">Experiences</h2>
+                        <div class="timeline timeline-animated">
+                            <div class="timeline-item">
+                                <span class="timeline-date">2020 –&nbsp;now</span>
+                                <h3 class="timeline-title">GeekBrains</h3>
+                                <p class="timeline-text">Extra work: Teacher of the recommendation systems course</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-date">2019&nbsp;–&nbsp;now</span>
+                                <h3 class="timeline-title">Alibaba/Aliexpress</h3>
+                                <p class="timeline-text">Team leader DS - Recommendations team</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-date">2019 –&nbsp;2020</span>
+                                <h3 class="timeline-title">AI university</h3>
+                                <p class="timeline-text">Extra work: Python, Deep Learning teacher</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-date">2018 –&nbsp;2019</span>
+                                <h3 class="timeline-title">Samsung</h3>
+                                <p class="timeline-text">Senior data scientist, team leader - Business data analysis<br>
+                                </p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-date">2015 –&nbsp;2018</span>
+                                <h3 class="timeline-title">NIIME</h3>
+                                <p class="timeline-text">Junior data scientist - Data security lab</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-date">2012&nbsp;–&nbsp;2018</span>
+                                <h3 class="timeline-title">MIET</h3>
+                                <p class="timeline-text">Computer Science</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-2">
+                        <a class="section-next goto-section" href="#section-07">
+                            <span class="section-next-counter">06/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-07" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">References</h2>
+                        <div class="row animation-translate animation-item-2">
+                            <div class="col-6 col-lg-3">
+                                <a href="https://eng.miet.ru/" class="logo-link">
+                                    <img src="/static/img/miet.svg.png" class="logo-img" alt="Reference 1">
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <a href="https://www.niime.ru/en/?lang_switch=y" class="logo-link">
+                                    <img src="/static/img/niime.svg" class="logo-img" alt="Reference 2">
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <a href="https://www.samsung.com/ru/aboutsamsung/careers/srr/" class="logo-link">
+                                    <img src="/static/img/samsung.svg.png" class="logo-img" alt="Reference 3">
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <a href="https://aliexpress.ru/" class="logo-link">
+                                    <img src="/static/img/aliexpress.svg.png" class="logo-img" alt="Reference 4">
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <a href="https://neural-university.ru/" class="logo-link">
+                                    <img src="/static/img/universityai.png" class="logo-img" alt="Reference 5">
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <a href="https://gb.ru/" class="logo-link">
+                                    <img src="/static/img/geekbrains.svg.png" class="logo-img" alt="Reference 6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-08">
+                            <span class="section-next-counter">07/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-08" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">Projects</h2>
+                        <div class="row animation-translate animation-item-2">
+                            <div class="col-12 col-md-4">
+                                <a class="card" href="#modal-project-1" data-toggle="modal">
+                                    <img class="card-img-top" src="/static/img/sales.png" alt="Project 1">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Sales prediction</h3>
+                                        <h4 class="card-subtitle">Prediction of Samsung devices sales</h4>
+                                        <p class="card-tags">COLLECTING DATA - DEVELOPING - DEPLOY</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a class="card" href="#modal-project-2" data-toggle="modal">
+                                    <img class="card-img-top" src="/static/img/ali.png" alt="Project 2">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Category prediction</h3>
+                                        <h4 class="card-subtitle">Predict category for search engine</h4>
+                                        <p class="card-tags">COLLECTING DATA - DEVELOPING - DEPLOY</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a class="card" href="#modal-project-3" data-toggle="modal">
+                                    <img class="card-img-top" src="/static/img/btc.png" alt="Project 3">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Prediction Bitcoin price</h3>
+                                        <h4 class="card-subtitle">Make auxiliary trading tool</h4>
+                                        <p class="card-tags">COLLECTING DATA - DEVELOPING - DEPLOY</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-09">
+                            <span class="section-next-counter">08/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-09" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">Feedbacks</h2>
+                        <div id="carousel" class="carousel slide animation-translate animation-item-2"
+                             data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="testimonial">
+                                        <div class="testimonial-body">
+                                            <h3 class="testimonial-title">Valeriy Babushkin</h3>
+                                            <h4 class="testimonial-subtitle">Head User Data Privacy @Facebook <a
+                                                    href="https://www.linkedin.com/in/venheads/">LinkedIn</a></h4>
+                                            <p class="testimonial-text">
+                                                I like when my team can work efficiently without me.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonial">
+                                        <div class="testimonial-body">
+                                            <h3 class="testimonial-title">Nikolay Merkulov</h3>
+                                            <h4 class="testimonial-subtitle">Head of business ML @Samsung <br> <a
+                                                    href="https://www.linkedin.com/in/nikolay-merkulov">LinkedIn</a>
+                                            </h4>
+                                            <p class="testimonial-text">
+                                                Clear thinking, fast decisions and good hard skills
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                            </ol>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-3">
+                        <a class="section-next goto-section" href="#section-10">
+                            <span class="section-next-counter">09/10</span>
+                            <span class="section-next-label">Next chapter</span>
+                            <span class="section-next-icon"></span>
+                        </a>
+                    </div>
+                </section>
+                <section id="section-10" class="section animation">
+                    <div class="section-body">
+                        <h2 class="section-title animation-translate-overline animation-item-1">Contact</h2>
+                        <div class="row mb-10 animation-translate animation-item-2">
+                            <div class="col-12 col-md-4">
+                                <div class="contact">
+                                    <strong class="contact-label">Stay in touch</strong>
+                                    <a href="mailto:mail@arudnitskiy.ru">mail@arudnitskiy.ru</a><br>
+                                    <a href="tel:+79772696705">+7977 269 67 05</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contact">
+                                    <strong class="contact-label">Social</strong>
+                                    <a href="https://t.me/a_rudnitskiy">Telegram</a><br>
+                                    <a href="https://www.linkedin.com/in/andrey-rudnitskiy-8640311b2">LinekdIn</a><br>
+                                    <a href="https://vk.com/normandec94">Vk</a><br>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="contact">
+                                    <strong class="contact-label">Address</strong>
+                                    Moscow<br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-xl-9">
+                                <h3 class="section-subtitle animation-translate animation-item-3">Leave a message</h3>
+                                <form class="needs-validation animation-translate animation-item-4" novalidate>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <label for="contact-form-name">Name</label>
+                                                <input type="text" class="form-control" name="name"
+                                                       id="contact-form-name" placeholder="Your name" required>
+                                                <div class="invalid-feedback">Please enter your name.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <label for="contact-form-name">E-mail</label>
+                                                <input type="email" class="form-control" name="email"
+                                                       id="contact-form-email" placeholder="@" required>
+                                                <div class="invalid-feedback">Please enter a valid e-mail address.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contact-form-message">Message</label>
+                                        <textarea class="form-control" name="message" id="contact-form-message"
+                                                  placeholder="Your message" rows="5" required></textarea>
+                                        <div class="invalid-feedback">Please type some message.</div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-footer animation-translate animation-item-5">
+							<span class="section-next goto-section">
+								<span class="section-next-counter">10/10</span>
+							</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Modals -->
+<div id="modal-project-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-fluid">
+        <div class="modal-content">
+            <div class="modal-header">
+                &nbsp;
+                <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+                    <span class="d-none">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <article class="article">
+                    <div class="article-header">
+                        <h2 class="article-title">Sales prediction</h2>
+                        <h3 class="article-subtitle">Prediction of Samsung devices sales</h3>
+                        <p class="article-tags">Collecting data - DEVELOPING - DEPLOY</p>
+                    </div>
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-12 col-lg-6">
+                            <p>
+                                This project consisted in improving the quality of the existing algorithm for predicting
+                                the sales of Samsung smartphones throughout Russia. As a nonlinear, there was a very
+                                good algorithm that worked in manual mode, with seasonal coefficients and with a quality
+                                of 72%, there was a special developed metric of the forecast quality taking into account
+                                the price of the device throughout the market. The main difficulty was that we only had
+                                data for 4 years with a weekly timeframe, and during these years some models went out of
+                                sales. Since, in addition to predicting the total sales, it was necessary to predict the
+                                sales of individual devices, which are not static. Our first algorithms were ARIMA and
+                                FBProphet, of the two the best quality was shown by the profit with the addition of
+                                additional regressors in addition to the sales themselves, but good quality was only in
+                                total sales. Now it was necessary to solve the problem of forecasting 650 time series at
+                                the same time. As a model, we used gradient boosting, with the addition of a large
+                                number of features, including look backs and training with a small learning rate, which
+                                gave us an overall increase in quality of + 5%.
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="img-fluid mb-10" src="/static/img/sales.png" alt="Project 1">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-project-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-fluid">
+        <div class="modal-content">
+            <div class="modal-header">
+                &nbsp;
+                <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+                    <span class="d-none">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <article class="article">
+                    <div class="article-header">
+                        <h2 class="article-title">Category prediction</h2>
+                        <h3 class="article-subtitle">Predict category for search engine</h3>
+                        <p class="article-tags">Collecting data - DEVELOPING - DEPLOY</p>
+                    </div>
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-12 col-lg-6">
+                            <p>
+                                Global Aliexpress contains about 150 million goods, where descriptions and attributes of
+                                goods have been translated from Chinese into English and other languages, which causes
+                                big problems for the search engine to find relevant goods. For this purpose, as an
+                                additional feature in the search engine and in the ranking, a model for predicting the
+                                products category by query. Which limited the search to specific categories and
+                                helped rank more relevant products higher. We used about 500 features in which there
+                                were paired features request-category of both behavior and semantics, which gave an
+                                increase in search relevance by 8%.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="img-fluid mb-10" src="/static/img/ali.png" alt="Nanovo">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-project-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal-dialog modal-fluid">
+        <div class="modal-content">
+            <div class="modal-header">
+                &nbsp;
+                <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+                    <span class="d-none">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <article class="article">
+                    <div class="article-header">
+                        <h2 class="article-title">Prediction Bitcoin price</h2>
+                        <h3 class="article-subtitle">Make auxiliary trading tool</h3>
+                        <p class="article-tags">Collecting data - DEVELOPING - DEPLOY</p>
+                    </div>
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-12 col-lg-6">
+                            <p>
+                                It was a freelance project where the customer needed to develop a system in which the
+                                algorithm would predict price movement one day ahead and inform him about the forecast
+                                and sharp jumps in volume. For this purpose, two models were applied, one of which
+                                determined the mood of the news. For it I developed a parsing of news about
+                                cryptocurrency from various sources, the main one of which was Twitter. Another basic
+                                model was LSTM NN using time features of price, volume, orders and also news over time.
+                                To
+                                determine the quality and suitability of the model, a 10-day test was performed, the
+                                model had to predict 8 days correctly. As a result, it was possible to fulfill the
+                                required quality, and the model was poured on the VDS server, and through the bot
+                                telegrams it was easily configured and notified about changes and forecasts.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img class="img-fluid mb-10" src="/static/img/btc.png" alt="Nanovo">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/static/dist/js/all.js"></script>
+<script>
+    // Bootstrap form validation example
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+</html>
